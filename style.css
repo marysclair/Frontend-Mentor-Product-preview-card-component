@@ -1,0 +1,112 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40vw;
+    height: 60vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+#side-imagem {
+    width: 50%;
+    background-image: url(images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#side-conteudo {
+    width: 50%;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    margin: 15px 0px;
+    font-weight: 700;
+    line-height: 1;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+#precos {
+    margin-top: 20px;
+    font-family: 'Fraunces', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    margin-bottom: 20px;
+}
+
+h3#promocao {
+    color:  hsl(158, 36%, 37%);
+    font-size: 32px;
+}
+
+h3:last-of-type{
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+#btn{
+    text-align: center;
+}
+
+#btn > button {
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btn > button:hover{
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
+
+#btn > button > img {
+    margin-right: 5px;
+}

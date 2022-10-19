@@ -1,0 +1,14 @@
+@media (min-width: 300px) and (max-width: 700px) {
+    #conteudo {
+        flex-direction: column;
+        width: 90vw;
+        height: 90vh;
+    }
+    #side-imagem {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #side-conteudo {
+        width: 87%;
+    }
+}
